@@ -1,0 +1,22 @@
+En Desarrollo:
+1) Instalar Python 32 bits
+
+2) Crear nuevo proyecto en PyCharm. 
+	-New environment using: Virtualenv
+	-Base interpreter: Python de 32
+
+3) Instalar OpenOPC (pip install OpenOPC-Python3x)
+
+4) Instalar pywintypes (pip install pypiwin32)
+
+
+
+En Produccion:
+1) Si no quiero instalar Python de 32 bits en el servidor de produccion, copiar la carpeta donde se instaló 
+   en desarrollo (Python39-32) y pegar en el servidor de produccion (puede ser en la misma carpeta del proyecto). 
+   Luego editar el archivo pyvenv.cfg y reemplazar "home = C:\Python39-32" por la ruta donde copiamos Pyton de 32.
+   
+2) Todo lo necesario para ejecutarlo (librerias) queda en la carpeta de ambiente virtual (venv).
+   Ejecutar el programa con:
+	C:\Users\e426969\PycharmProjects\001_OPC\venv\Scripts\python C:\Users\e426969\PycharmProjects\001_OPC\main.py
+
