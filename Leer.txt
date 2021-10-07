@@ -18,5 +18,5 @@ En Produccion:
    
 2) Todo lo necesario para ejecutarlo (librerias) queda en la carpeta de ambiente virtual (venv).
    Ejecutar el programa con:
-	C:\Users\e426969\PycharmProjects\001_OPC\venv\Scripts\python C:\Users\e426969\PycharmProjects\001_OPC\main.py
+	.\venv\Scripts\python main.py
 
