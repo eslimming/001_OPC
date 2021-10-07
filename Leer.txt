@@ -1,4 +1,4 @@
-En Desarrollo:
+En Desarrollo :
 1) Instalar Python 32 bits
 
 2) Crear nuevo proyecto en PyCharm. 
