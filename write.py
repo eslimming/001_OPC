@@ -10,12 +10,12 @@ def Escribir(Destino, count):
     opc = OpenOPC.client()
     opc.connect('Matrikon.OPC.Simulation.1')
     opc.write((Destino, count))
-    print(Destino,i)
+    print(Destino, i)
     opc.close()
 
 
 i = 1
-while i <= 10:
+while i <= 5:
     try:
         Escribir('Bucket Brigade.Int1', i)
         i += 1
