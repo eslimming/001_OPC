@@ -11,7 +11,7 @@ print(opc.servers())
 opc.connect('Matrikon.OPC.Simulation.1')
 tags = ['Random.Int1', 'Bucket Brigade.Int1']
 i = 1
-while i <= 20:
+while i <= 5:
     try:
         value = opc.read(tags)
 
